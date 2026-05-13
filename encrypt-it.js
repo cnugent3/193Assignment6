@@ -19,10 +19,14 @@
     // for UI elements on the page.
     console.log("Window loaded!");
     document.getElementById("encrypt-it").addEventListener("click", handleClick);
+    document.getElementById("reset").addEventListener("click", handleClick2);
   }
 
   function handleClick() {
     console.log("Button clicked!");
+  }
+  function handleClick2() {
+    console.log("Reset clicked!");
   }
 
   // Add any other functions in this area (you should not implement your
