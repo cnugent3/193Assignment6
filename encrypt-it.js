@@ -26,7 +26,7 @@
     console.log("Button clicked!");
   }
   function handleClick2() {
-    console.log("Reset clicked!");
+    document.getElementById("input-text").value = "";
   }
 
   // Add any other functions in this area (you should not implement your
